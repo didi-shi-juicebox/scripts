@@ -1,0 +1,28 @@
+# Virtual environment created at the repo root (python -m venv .)
+/bin/
+/include/
+/lib/
+/share/
+/pyvenv.cfg
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded data (re-create with the download scripts)
+*.jsonl
+*.jsonl.gz
+*.csv
+*.tmp
+
+# Secrets and local config
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
