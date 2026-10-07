@@ -26,3 +26,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Eval samples built from production data (estimates joined with profiles)
+comp_data/comp_estimates_sample/
